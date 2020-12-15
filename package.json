@@ -29,7 +29,7 @@
     "extension"
   ],
   "author": "Auth0",
-  "repository": "https://github.com/auth0-extensions/auth0-delegated-administration-extension",
+  "repository": "https://github.com/iScorpio/auth0-delegated-administration-extension",
   "license": "MIT",
   "dependencies": {
     "async": "^1.5.2",
