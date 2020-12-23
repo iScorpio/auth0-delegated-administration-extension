@@ -56,6 +56,7 @@
     "jwt-decode": "^2.0.1",
     "lodash": "^4.8.2",
     "lru-memoizer": "1.11.2",
+    "mailgun.js": "^2.0.6",
     "moment": "^2.13.0",
     "morgan": "^1.7.0",
     "ms": "^0.7.1",
@@ -183,6 +184,22 @@
             "text": "Yes"
           }
         ]
+      },
+      "MAILGUN_API_KEY": {
+        "description": "Mailgun API Key",
+        "required": true
+      },
+      "MAILGUN_API_URL": {
+        "description": "Mailgun API Url",
+        "required": false
+      },
+      "MAILGUN_DOMAIN": {
+        "description": "Mailgun Domain",
+        "required": true
+      },
+      "MAILGUN_FROM": {
+        "description": "Mailgun From",
+        "required": false
       }
     },
     "externals": [

@@ -75,6 +75,22 @@
           "text": "Yes"
         }
       ]
+    },
+    "MAILGUN_API_KEY": {
+      "description": "Mailgun API Key",
+      "required": true
+    },
+    "MAILGUN_API_URL": {
+      "description": "Mailgun API Url",
+      "required": false
+    },
+    "MAILGUN_DOMAIN": {
+      "description": "Mailgun Domain",
+      "required": true
+    },
+    "MAILGUN_FROM": {
+      "description": "Mailgun From",
+      "required": false
     }
   }
 }
